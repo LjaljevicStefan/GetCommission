@@ -13,5 +13,7 @@ get_commission(date_str) -> float
 
 Also, add a tests.
 
-Solution: The solution code in Get_Commision.py is completely developed by myself without using 'detetime' module. The function get_commision(date_str) is ready for import. 
+Solution:
+----------
+The solution code in Get_Commision.py is completely developed by myself without using 'detetime' module. The function get_commision(date_str) is ready for import. 
 Test.py imports Get_Commision and uses get_commision() function to test valid and invalid inputs.
