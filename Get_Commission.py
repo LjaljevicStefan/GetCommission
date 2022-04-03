@@ -38,7 +38,8 @@ def check_input(date_str):
         return -1
 
 def get_commission(date_str = ''):
-    '''Function for evaluating commission based on month in year
+    '''
+    Function for evaluating commission based on month in year
     
     Parameters
     ---------
@@ -47,7 +48,8 @@ def get_commission(date_str = ''):
         
     Returns
     -------
-    Float, 0.1 is for 10% and 0.15 is for 15%. -1 is for invalid date.'''
+    Float, 0.1 is for 10% and 0.15 is for 15%. -1 is for invalid date.
+    '''
     check = check_input(date_str)
 
     if check == 1:
